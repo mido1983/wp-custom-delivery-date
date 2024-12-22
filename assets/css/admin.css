@@ -1,0 +1,61 @@
+.webrainbow-delivery-until-wrapper {
+    margin: 10px 0;
+}
+
+.delivery-until-date-wrapper {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.webrainbow-datepicker {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* Стили для исключенных дат */
+.excluded-dates-container {
+    margin: 15px 0;
+}
+
+.excluded-date-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.excluded-date-row input {
+    flex: 1;
+}
+
+.excluded-date-row .button {
+    flex-shrink: 0;
+}
+
+/* Стили для категорий доставки */
+.category-days-row {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.category-days-checkboxes {
+    margin: 10px 0;
+}
+
+.category-days-checkboxes label {
+    margin-right: 15px;
+    display: inline-block;
+}
